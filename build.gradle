@@ -43,3 +43,7 @@ dependencyManagement {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+springBoot {
+    mainClassName = 'devoffff.site.Application'
+}
