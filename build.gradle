@@ -43,6 +43,10 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
+springBoot {
+    mainClass = 'devoffff.site.Application'  // Replace with your main class
+}
+
 bootJar {
-    mainClassName = 'devoffff.site.Application'  // Replace with your main class
+    // No need to set mainClassName here anymore, it's handled by springBoot plugin
 }
