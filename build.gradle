@@ -44,7 +44,7 @@ tasks.named('test') {
 }
 
 springBoot {
-    mainClass = 'devoffff.site.Application'  // Replace with your main class
+    mainClass = 'devoffff.site.samplerestfulapi.SampleRestfulapiApplication'
 }
 
 bootJar {
